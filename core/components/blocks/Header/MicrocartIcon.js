@@ -3,6 +3,7 @@ import { MicrocartButton } from '@vue-storefront/core/modules/cart/components/Mi
 export default {
   methods: {
     openMicrocart () {
+      console.log('foi')
       // Method renamed to 'toggleMicrocart'
       this.toggleMicrocart()
     }
